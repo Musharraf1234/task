@@ -15,6 +15,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { FaRegFolder } from "react-icons/fa6";
 import { AiOutlineLayout } from "react-icons/ai";
 import FOlderimg from '../img/folder.png'
+import { Link } from 'react-router-dom';
 
 function Deshboard() {
 
@@ -24,7 +25,9 @@ function Deshboard() {
 <div className='main-container'>
     <nav className='Hoemnav'>
       <div className='logodiv' >
+        
     <img src={log} alt="" height={100}/>
+  
     </div>
     <div className='nav-li '>
       <h1 class="welcome-message">Dashboard</h1>

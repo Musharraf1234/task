@@ -2,6 +2,13 @@
   align-items: center;
   justify-content: space-between;
 }
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
 .Hoemnav{
   display: flex;
   align-items: center;
@@ -111,7 +118,7 @@ flex-direction: column;
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 75%;
+  width: 100%;
 }
 h1 {
   font-size: 1.5vw;  
@@ -363,13 +370,18 @@ p {
   width: 240px;
   background-color: rgb(255, 255, 255);
  position:absolute;
- height: 821px;
+ height: 925px;
   display: block;
 border: 1px solid;
-  transition: all 3s;
+  /* transition: all 3s; */
   z-index: 2;
+  left: 0;
 
 
+}
+.LinkRouter{
+  text-decoration: none;
+  color: black;
 }
 .sidenav .active{
   left: 0;

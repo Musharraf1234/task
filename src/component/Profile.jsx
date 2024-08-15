@@ -16,43 +16,11 @@ import { FaRegFolder } from "react-icons/fa6";
 import { AiOutlineLayout } from "react-icons/ai";
 import FOlderimg from '../img/folder.png'
 import Deshboard from './Deshboard';
-function Home() {
-  const [side , setside] = useState(false)
 
-  const handlecliock = () =>{
-    setside(!side)
-  }
-  console.log(side);
-  
+function Profile() {
   return (
-    <div class="d-flex main h-100">
-{/* {side  &&   <div className="sidenav ">
-   <div className='logodiv' onClick={handlecliock}>
-    <img src={log} alt="" height={100}/>
-    </div>
-    <div class="d-flex">
-
-<ul>
-  <li><AiOutlineLayout size={30} />  Dashboard</li>
-  <li><FaRegFolder size={30} />Classes</li>
-  <li> <RiBook3Line size={30} />Resources</li>
-  <li><MdOutlineCalendarToday size={30} />Learning Plan</li>
-  <li><MdChatBubbleOutline size={30} />Chat</li>
-  <li><IoSettingsOutline size={30} />Settings</li>
-</ul>
-</div>
-<div class="container">
-    <div class="icon">
-      <img src={FOlderimg} alt="Folder icon" />
-    </div>
-    <div class="text">
-      Upgrade to PRO for <br /> more resources.
-    </div>
-    <button class="upgrade-button">Upgrade</button>
-  </div>
-</div>} */}
-<Deshboard  />
-    {/* <div className="profile">
+   <>
+       <div className="profile">
     <nav className="d-flex">
         <h2>Logout</h2>
         <IoMdLogOut size={25} />
@@ -154,10 +122,9 @@ function Home() {
             </div>
         </div>
     </div>
-</div> */}
-
-    </div>
+</div>
+   </>
   )
 }
 
-export default Home
+export default Profile
