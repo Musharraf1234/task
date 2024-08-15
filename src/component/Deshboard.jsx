@@ -66,8 +66,8 @@ function Deshboard() {
             <div class="left-part">
                 <div class="level">B2</div>
                 <div class="ml-2">
-                <div class="text-small">Business English</div>
-                <div class="text-large">Grammar</div>
+                <div class="text-small">Common English</div>
+                <div class="text-large">Pharcal verbs</div>
                 </div>
             </div>
             <div class="right-part">
@@ -76,10 +76,10 @@ function Deshboard() {
         </div>
         <div class="custom-box">
             <div class="left-part">
-                <div class="level">B2</div>
+                <div class="level">C1</div>
                 <div class="ml-2">
-                <div class="text-small">Business English</div>
-                <div class="text-large">Grammar</div>
+                <div class="text-small">Business Spanish</div>
+                <div class="text-large">Vocabulary</div>
                 </div>
             </div>
             <div class="right-part">
