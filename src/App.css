@@ -71,7 +71,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 70%;
+  width: 75%;
 }
 h1 {
   font-size: 1.5vw;  
@@ -313,7 +313,7 @@ p {
   }
 }
 .profile{
-  width: 30%;
+  width: 25%;
   height: 100%;
   border: 1px solid;
 }
@@ -321,11 +321,12 @@ p {
   width: 240px;
   background-color: rgb(255, 255, 255);
  position:absolute;
- height: 850px;
+ height: 885px;
   display: block;
- padding: 0 30px;
+
   transition: all 3s;
   z-index: 2;
+
 
 }
 .sidenav .active{
@@ -334,9 +335,10 @@ p {
 .sidenav ul{
   width: 100%;
   display: flex;
-  gap: 30px;
+  gap: 45px;
   flex-direction: column;
   list-style: none;
+  margin-top: 65px;
 }
 .sidenav ul li{
   display: flex;
@@ -356,7 +358,8 @@ p {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 150px;
+    margin-top: 60px;
+    margin-right: 20px;
 }
 .icon {
   position:absolute;
@@ -525,9 +528,9 @@ p {
   }
 }
 .profile {
-  width: 30%;
+  width: 25%;
   
-  margin: 0 auto; /* Center the profile on the page */
+  
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;

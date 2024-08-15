@@ -32,12 +32,12 @@ function Home() {
     <div class="d-flex">
 
 <ul>
-  <li><AiOutlineLayout />  Dashboard</li>
-  <li><FaRegFolder />Classes</li>
-  <li> <RiBook3Line />Resources</li>
-  <li><MdOutlineCalendarToday  />Learning Plan</li>
-  <li><MdChatBubbleOutline />Chat</li>
-  <li><IoSettingsOutline />Settings</li>
+  <li><AiOutlineLayout size={30} />  Dashboard</li>
+  <li><FaRegFolder size={30} />Classes</li>
+  <li> <RiBook3Line size={30} />Resources</li>
+  <li><MdOutlineCalendarToday size={30} />Learning Plan</li>
+  <li><MdChatBubbleOutline size={30} />Chat</li>
+  <li><IoSettingsOutline size={30} />Settings</li>
 </ul>
 </div>
 <div class="container">
