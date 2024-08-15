@@ -24,11 +24,7 @@ function Deshboard() {
 <>
 <div className='main-container'>
     <nav className='Hoemnav'>
-      <div className='logodiv' >
-        
-    <img src={log} alt="" height={100}/>
-  
-    </div>
+
     <div className='nav-li '>
       <h1 class="welcome-message">Dashboard</h1>
     <p class="encouragement">15 Aug 2024, Thursday </p>
