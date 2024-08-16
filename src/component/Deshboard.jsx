@@ -2,20 +2,7 @@ import React, { useState } from 'react'
 import personlog from '../img/ezgif.com-webp-to-png-converter-removebg-Photoroom.png'
 import Courses from './Courses'
 import TimeSpentChart from './TimeSpentChar'
-import { IoMdLogOut } from "react-icons/io";
-import profileicon from '../img/people_16086030.png'
-import { IoIosNotificationsOutline } from "react-icons/io";
-import { MdOutlineMail } from "react-icons/md";
-import log from '../img/logo.png'
-import { CiFolderOn } from "react-icons/ci";
-import { RiBook3Line } from "react-icons/ri";
-import { MdOutlineCalendarToday } from "react-icons/md";
-import { MdChatBubbleOutline } from "react-icons/md";
-import { IoSettingsOutline } from "react-icons/io5";
-import { FaRegFolder } from "react-icons/fa6";
-import { AiOutlineLayout } from "react-icons/ai";
-import FOlderimg from '../img/folder.png'
-import { Link } from 'react-router-dom';
+
 
 function Deshboard() {
 
@@ -89,6 +76,7 @@ function Deshboard() {
     </div>
     </section>
     </div>
+    
 </>
   )
 }

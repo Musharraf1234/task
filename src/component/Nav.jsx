@@ -6,7 +6,7 @@ function Nav({handleclick}) {
   return (
     <nav className='Hoemnav'>
       <Link to='/'>      <div className='logodiv' >
-    <img src={log} alt="" height={100} onClick={handleclick}/>
+    <img   src={log} alt="" height={100} onClick={handleclick}/>
     </div>
     </Link>
 

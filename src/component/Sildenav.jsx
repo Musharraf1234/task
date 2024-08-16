@@ -1,13 +1,4 @@
 import React, { useState } from 'react'
-import personlog from '../img/ezgif.com-webp-to-png-converter-removebg-Photoroom.png'
-import Courses from './Courses'
-import TimeSpentChart from './TimeSpentChar'
-import { IoMdLogOut } from "react-icons/io";
-import profileicon from '../img/people_16086030.png'
-import { IoIosNotificationsOutline } from "react-icons/io";
-import { MdOutlineMail } from "react-icons/md";
-import log from '../img/logo.png'
-import { CiFolderOn } from "react-icons/ci";
 import { RiBook3Line } from "react-icons/ri";
 import { MdOutlineCalendarToday } from "react-icons/md";
 import { MdChatBubbleOutline } from "react-icons/md";
@@ -15,14 +6,14 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { FaRegFolder } from "react-icons/fa6";
 import { AiOutlineLayout } from "react-icons/ai";
 import FOlderimg from '../img/folder.png'
-import Deshboard from './Deshboard';
 import { Link } from 'react-router-dom';
+import { IoMdClose } from "react-icons/io";
 function Sildenav({handleclick}) {
   return (
   <>
    <div className="sidenav ">
    <div className='logodiv' onClick={handleclick}>
-    <img src={log} alt="" height={100}/>
+   <IoMdClose size={35} />
     </div>
     <div class="d-flex">
 
