@@ -2,7 +2,7 @@ import React from 'react'
 
 function Chtats() {
   return (
-    <div>Chtats</div>
+    <div className='Routingcomponent'><h1>Chtats</h1></div>
   )
 }
 

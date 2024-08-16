@@ -2,7 +2,7 @@ import React from 'react'
 
 function LearningPlan() {
   return (
-    <div>LearningPlan</div>
+    <div className='Routingcomponent'><h1> LearningPlan</h1></div>
   )
 }
 

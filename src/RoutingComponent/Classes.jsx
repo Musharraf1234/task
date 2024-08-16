@@ -2,7 +2,7 @@ import React from 'react'
 
 function Classes() {
   return (
-    <div>Classes</div>
+    <div className='Routingcomponent'><h1>Classes</h1></div>
   )
 }
 
